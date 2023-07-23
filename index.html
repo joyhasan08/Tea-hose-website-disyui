@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea-hose-website-disyui</title>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap" rel="stylesheet">
     <!-- tailwaind and disyui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -16,15 +20,49 @@
               }
             }
           }
-        }
+        } 
       </script>
       <style>
-        .font-pop{
-            font-family: 'Poppins', sans-serif;
+        .font-man{
+            font-family: 'Manrope', sans-serif;
         }
       </style>
 </head>
 <body>
-    
+    <header>
+        <nav></nav> 
+    </header>
+    <main class="font-man">
+        <!-- hero section -->
+        <section class=" bg-slate-500 ">
+               <div class="flex lg:flex-row max-w-7xl mx-auto py-36 gap-x-40">
+                <div class="flex-1">
+                    <h1 class="text-7xl font-extrabold">It's good 
+                        tea time at The Tea House</h1>
+                    <p class="py-6 text-lg">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds..</p>
+                    <button class="btn btn-warning">Explore More</button>
+                </div>
+                
+                <div class="flex-1 ">
+                    <img src="./images/banner.png" class="w-fit  "  />
+                </div>
+               </div>                                  
+        </section>
+        <!-- Our Feature -->
+        <section>
+            <div>
+
+                <div class="space-y-4 pt-4">
+                    <h1 class="text-5xl font-extrabold w-fit  mx-auto">Our Featured Products</h1>
+                    <p class="text-base text-[#777] font-semibold w-fit mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                </div>
+
+
+
+
+            </div>
+        </section>
+    </main>
+    <footer></footer>
 </body>
 </html>
